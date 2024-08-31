@@ -49,4 +49,4 @@ def test_q4(capsys):
 
   q4()
   captured = capsys.readouterr()
-  assert captured.out == "3 x 3 = 9n"
+  assert captured.out == "3 x 3 = 9\n"

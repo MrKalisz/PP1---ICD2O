@@ -1,7 +1,6 @@
 import os.path
 import sys
 from PP1 import *
-from tud_tests import *
 
 def test_q1(capsys):
 

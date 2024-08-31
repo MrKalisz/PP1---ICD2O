@@ -13,7 +13,7 @@ def test_q1(capsys):
 
   q1()
   capture = capsys.readouterr()
-  assert captured.out = "Hello World\n"
+  assert captured.out == "Hello World\n"
 
 def test_q2(capsys):
 
@@ -25,7 +25,7 @@ def test_q2(capsys):
 
   q2()
   capture = capsys.readouterr()
-  assert captured.out = "1\n2\n3\n4\n5\n"
+  assert captured.out == "1\n2\n3\n4\n5\n"
 
 def test_q3(capsys):
 
@@ -37,7 +37,7 @@ def test_q3(capsys):
 
   q3()
   capture = capsys.readouterr()
-  assert captured.out = " Help Me!\n"
+  assert captured.out == " Help Me!\n"
 
 def test_q4(capsys):
 
@@ -49,4 +49,4 @@ def test_q4(capsys):
 
   q4()
   capture = capsys.readouterr()
-  assert captured.out = "3 x 3 = 9n"
+  assert captured.out == "3 x 3 = 9n"

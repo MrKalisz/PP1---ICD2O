@@ -1,4 +1,4 @@
-Lesson:
+# Lesson: Comments and Output
 # This is a comment
 # Anything I write after the # symbol will not be run by the program.
 
@@ -35,13 +35,13 @@ print ("hello there!! I'm so excited to be here.")
 
 # Summary
   
-**Comments**
+#**Comments**
 
-Use's # in python to make a comment
-Does not affect code.
-Can be used to omit lines of your code you don't want to run
+#Use's # in python to make a comment
+#Does not affect code.
+#Can be used to omit lines of your code you don't want to run
 
-Documentation uses ''' to start and end multi line comments
+# Documentation uses ''' to start and end multi line comments
 
 '''
 Lesson 1.1 - Output

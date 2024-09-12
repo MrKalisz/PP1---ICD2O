@@ -18,6 +18,22 @@ All 4 sections are required and must be put within a multi line comment at the s
 # Below is an output statement, also known as a print statement.  It outputs to the console what is inside the brackets
 print(5) # This outputs the number 5
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print()
+
 #print statements go down a line after outputting what is in their brackets, kind of like hitting enter after you type something.
 print(4.5) #This outputs the number 4.5
 
@@ -54,9 +70,9 @@ Date Last Modified: September 04, 2023
 #Notice that instead of the # symbol it uses ''' to start the comments and ''' to end the comments.
 #Anything between those quotes is not considered code and will not run just like comments.
 
-**Output**
+# **Output**
 
-print() to output something.
-print() creates a new line character after it
-Adding spaces before, after, between code does not change it.  Only inside of ""
-Adding lines between print statements does not make their outputs farther apart.
+# print() to output something.
+# print() creates a new line character after it
+# Adding spaces before, after, between code does not change it.  Only inside of ""
+# Adding lines between print statements does not make their outputs farther apart.

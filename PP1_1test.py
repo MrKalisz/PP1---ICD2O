@@ -1,11 +1,11 @@
 import os.path
 import sys
-from PP1 import *
+from PP1_1 import *
 
 def test_q1(capsys):
 
   try:
-    exists = os.path.exists("PP1.py")
+    exists = os.path.exists("PP1_1.py")
     assert exists
   except:
     sys.exit()
@@ -17,7 +17,7 @@ def test_q1(capsys):
 def test_q2(capsys):
 
   try:
-    exists = os.path.exists("PP1.py")
+    exists = os.path.exists("PP1_1.py")
     assert exists
   except:
     sys.exit()
@@ -29,7 +29,7 @@ def test_q2(capsys):
 def test_q3(capsys):
 
   try:
-    exists = os.path.exists("PP1.py")
+    exists = os.path.exists("PP1_1.py")
     assert exists
   except:
     sys.exit()
@@ -41,7 +41,7 @@ def test_q3(capsys):
 def test_q4(capsys):
 
   try:
-    exists = os.path.exists("PP1.py")
+    exists = os.path.exists("PP1_1.py")
     assert exists
   except:
     sys.exit()
